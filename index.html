@@ -32,7 +32,7 @@
 </style>
 </head>
 <body>
-    <div class="container-fluid " id="bottom">
+    <div class="container-fluid bg-danger" id="bottom">
         <div class="row ">
             <div class="col-6 text-center bg-danger text-white p-3">XYZ</div>
             <div class="col-6 text-center bg-danger text-white p-3"><i class="fa fa-chevron-up" id="fa"></i><i class="fa fa-chevron-down" id="fa1"></i></div>
@@ -95,13 +95,13 @@
         const bottom = document.getElementById('bottom');
 
         btn.addEventListener('click',function(){
-            bottom.style.top = '66%';
+            bottom.style.top = '67%';
             btn.style.display = 'none';
             btn1.style.display = 'inline';
             console.log('up');
         })
         btn1.addEventListener('click',function(){
-            bottom.style.top = '90%';
+            bottom.style.top = '89%';
             btn.style.display = 'inline';
             btn1.style.display = 'none';
             console.log('down');
