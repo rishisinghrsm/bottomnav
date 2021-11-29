@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bottom NAvigation  </title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <!--fontawesome 5.0 script-->
+<script src="https://kit.fontawesome.com/c2d50e9928.js" crossorigin="anonymous"></script>
+<!--fontawesome 5.0 script-->
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: white;
+        border: none;
+    }
+    #fa1{
+        /* transform: rotate(-90deg); */
+        display: none;
+    }
+    #bottom{
+        position: fixed;
+        top: 90%;
+        /* transform: translateY(300px); */
+    }
+    a{
+        text-decoration: none;
+    }
+</style>
+</head>
+<body>
+    <div class="container-fluid " id="bottom">
+        <div class="row ">
+            <div class="col-6 text-center bg-danger text-white p-3">XYZ</div>
+            <div class="col-6 text-center bg-danger text-white p-3"><i class="fa fa-chevron-up" id="fa"></i><i class="fa fa-chevron-down" id="fa1"></i></div>
+            <!-- <div class="col-4 text-center bg-danger text-white"></div> -->
+        </div>
+        <div class="row justify-content-center" >
+            <div class="col-4 text-center bg-danger text-white p-2"><a href="#home"><i class="fa fa-store"></i><p>HOME</p></a></div>
+            <div class="col-4 text-center bg-danger text-white p-2"><a href="#about"><i class="fa fa-address-card"></i><p>ABOUT</p></a></div>
+            <div class="col-4 text-center bg-danger text-white p-2"><a href="#query"><i class="fa fa-question"></i><p>QUERY</p></a></div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-4 text-center bg-danger text-white p-2"><a href="#contact"><i class="fa fa-users"></i><p>CONTACT</p></a></div>
+            <div class="col-4 text-center bg-danger text-white p-2"><a href="#info"><i class="fa fa-info"></i><p>INFO</p></a></div>
+            <div class="col-4 text-center bg-danger text-white p-2"><a href="#carrear"><i class="fa fa-puzzle-piece"></i><p>CARREAR</p></a></div>
+
+        </div>
+    </div>
+<div class="container" id="home">
+    <div class="row">
+        <div class="col-md-6 p-4 mt-4 bg-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolores, dolorum nostrum, ab deserunt minus voluptatibus corrupti vel itaque ad, aliquid deleniti possimus minima soluta distinctio asperiores libero porro! Accusamus</div>
+        <div class="col-md-6 p-4 mt-4 bg-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolores, dolorum nostrum, ab deserunt minus voluptatibus corrupti vel itaque ad, aliquid deleniti possimus minima soluta distinctio asperiores libero porro! Accusamus</div>
+    </div>
+</div>
+<div class="container" id="about">
+    <div class="row">
+        <div class="col-md-6 p-4 mt-4 bg-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolores, dolorum nostrum, ab deserunt minus voluptatibus corrupti vel itaque ad, aliquid deleniti possimus minima soluta distinctio asperiores libero porro! Accusamus</div>
+        <div class="col-md-6 p-4 mt-4 bg-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolores, dolorum nostrum, ab deserunt minus voluptatibus corrupti vel itaque ad, aliquid deleniti possimus minima soluta distinctio asperiores libero porro! Accusamus</div>
+    </div>
+</div>
+<div class="container" id="query">
+    <div class="row">
+        <div class="col-md-6 p-4 mt-4 bg-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolores, dolorum nostrum, ab deserunt minus voluptatibus corrupti vel itaque ad, aliquid deleniti possimus minima soluta distinctio asperiores libero porro! Accusamus</div>
+        <div class="col-md-6 p-4 mt-4 bg-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolores, dolorum nostrum, ab deserunt minus voluptatibus corrupti vel itaque ad, aliquid deleniti possimus minima soluta distinctio asperiores libero porro! Accusamus</div>
+    </div>
+</div>
+<div class="container" id="contact">
+    <div class="row">
+        <div class="col-md-6 p-4 mt-4 bg-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolores, dolorum nostrum, ab deserunt minus voluptatibus corrupti vel itaque ad, aliquid deleniti possimus minima soluta distinctio asperiores libero porro! Accusamus</div>
+        <div class="col-md-6 p-4 mt-4 bg-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolores, dolorum nostrum, ab deserunt minus voluptatibus corrupti vel itaque ad, aliquid deleniti possimus minima soluta distinctio asperiores libero porro! Accusamus</div>
+    </div>
+</div>
+<div class="container" id="carrear">
+    <div class="row">
+        <div class="col-md-6 p-4 mt-4 bg-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolores, dolorum nostrum, ab deserunt minus voluptatibus corrupti vel itaque ad, aliquid deleniti possimus minima soluta distinctio asperiores libero porro! Accusamus</div>
+        <div class="col-md-6 p-4 mt-4 bg-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolores, dolorum nostrum, ab deserunt minus voluptatibus corrupti vel itaque ad, aliquid deleniti possimus minima soluta distinctio asperiores libero porro! Accusamus</div>
+    </div>
+</div>
+<div class="container" id="info">
+    <div class="row">
+        <div class="col-md-6 p-4 mt-4 bg-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolores, dolorum nostrum, ab deserunt minus voluptatibus corrupti vel itaque ad, aliquid deleniti possimus minima soluta distinctio asperiores libero porro! Accusamus</div>
+        <div class="col-md-6 p-4 mt-4 bg-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolores, dolorum nostrum, ab deserunt minus voluptatibus corrupti vel itaque ad, aliquid deleniti possimus minima soluta distinctio asperiores libero porro! Accusamus</div>
+    </div>
+</div>
+<br><br>
+<br><br>
+
+    <script>
+        const btn = document.getElementById('fa');
+        const btn1 = document.getElementById('fa1');
+        const bottom = document.getElementById('bottom');
+
+        btn.addEventListener('click',function(){
+            bottom.style.top = '66%';
+            btn.style.display = 'none';
+            btn1.style.display = 'inline';
+            console.log('up');
+        })
+        btn1.addEventListener('click',function(){
+            bottom.style.top = '90%';
+            btn.style.display = 'inline';
+            btn1.style.display = 'none';
+            console.log('down');
+        })
+
+
+    </script>
+</body>
+</html>
