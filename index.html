@@ -23,7 +23,7 @@
     }
     #bottom{
         position: fixed;
-        top: 90%;
+        bottom:155px;
         /* transform: translateY(300px); */
     }
     a{
@@ -95,13 +95,13 @@
         const bottom = document.getElementById('bottom');
 
         btn.addEventListener('click',function(){
-            bottom.style.top = '67%';
+            bottom.style.bottom = '0px';
             btn.style.display = 'none';
             btn1.style.display = 'inline';
             console.log('up');
         })
         btn1.addEventListener('click',function(){
-            bottom.style.top = '89%';
+            bottom.style.bottom = '-155px';
             btn.style.display = 'inline';
             btn1.style.display = 'none';
             console.log('down');
